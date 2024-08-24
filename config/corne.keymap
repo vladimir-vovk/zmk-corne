@@ -26,6 +26,55 @@
         };
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        a {
+            bindings = <&kp ESCAPE>;
+            key-positions = <2 1>;
+        };
+
+        b {
+            bindings = <&kp CLCK>;
+            key-positions = <14 13>;
+        };
+
+        c {
+            bindings = <&kp TAB>;
+            key-positions = <26 25>;
+        };
+
+        d {
+            bindings = <&kp BACKSPACE>;
+            key-positions = <10 9>;
+        };
+
+        e {
+            bindings = <&kp ENTER>;
+            key-positions = <22 21>;
+        };
+
+        f {
+            bindings = <&kp MINUS>;
+            key-positions = <19 20>;
+        };
+
+        g {
+            bindings = <&kp EQUAL>;
+            key-positions = <21 20>;
+        };
+
+        h {
+            bindings = <&sys_reset>;
+            key-positions = <1 29>;
+        };
+
+        j {
+            bindings = <&sys_reset>;
+            key-positions = <30 10>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
