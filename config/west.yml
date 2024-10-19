@@ -2,17 +2,10 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
-    - name: AakashDabas
-      url-base: https://github.com/AakashDabas
-    - name: gpeye
-      url-base: https://github.com/GPeye
   projects:
     - name: zmk
-      remote: AakashDabas
-      revision: animated_widgets
+      remote: zmkfirmware
+      revision: main
       import: app/west.yml
-    - name: hammerbeam-slideshow
-      remote: gpeye
-      revision: main 
   self:
     path: config
